@@ -1,0 +1,14 @@
+body {
+	background-color: #000000;
+	color: #f4f4db;
+	margin: 20px;
+	font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+/* ol, ul {
+	padding-left: 30px;
+} */
+
+img {
+	box-shadow: 0 0 6px 4px #00ffff;
+}
