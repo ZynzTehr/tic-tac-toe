@@ -46,7 +46,7 @@ class ErrorPage extends React.Component {
             * Relative paths in `src` can sometimes break if the React Router path is deeply nested (e.g., `/foo/bar/baz`).
             * Usually, a root-relative path (`/images/puppy.jpeg`) or a public URL is safer for 404 pages.
             */}
-          <img className='mt-5 rounded' src='../../images/puppy.jpeg' alt='winking puppy face' />
+          <img className='mt-5 rounded' src={`${process.env.PUBLIC_URL}/images/puppy.jpeg`} alt='winking puppy face' />
           
           <h1 className='mt-5'><b> Page not Found </b></h1>
           
